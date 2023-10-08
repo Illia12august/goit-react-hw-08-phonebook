@@ -10,7 +10,7 @@ import { deleteTask, fetchTasks } from 'redux/operations';
 import { getTasks, selectFilter } from 'redux/selectors';
 import { findContact } from 'redux/contactSlice';
 
-export const ContactList = ({ item }) => {
+export const ContactList = () => {
   const dispatch = useDispatch();
   const filter = useSelector(selectFilter);
 
@@ -52,7 +52,7 @@ export const ContactList = ({ item }) => {
           filteredItems.map(contact => (
             <ListEl key={contact.id}>
               <p>{contact.name}</p>
-              <p>{contact.phone}</p>
+              <p>{contact.number}</p>
               <ContactButton onClick={() => handleDelete(contact)}>
                 Delete
               </ContactButton>
