@@ -1,3 +1,4 @@
+import { Title } from 'components/ContactList/ContactList.styled';
 import { AddContactBtn, Container, InputEl, StyledForm } from './QuizForm.styled';
 import { useDispatch, useSelector } from 'react-redux';
 import { addTask } from 'redux/operations';
@@ -44,7 +45,7 @@ export const QuizForm = () => {
 
   return (
     <>
-      <h2>Phonebook</h2>
+      <Title>Phonebook</Title>
       <StyledForm onSubmit={handleSubmit}>
         <ul>
           <Container>

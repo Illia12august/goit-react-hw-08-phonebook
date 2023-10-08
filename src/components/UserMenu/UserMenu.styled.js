@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const ContainerStyled = styled.div`
+width:800px;
 margin-right: auto;
 margin-left: auto;
 margin-top: 50px;
@@ -11,9 +12,9 @@ flex-direction: column;
 justify-content: space-between;
 gap: 8px;
 padding: 20px;
-background-color: lightgreen;
-border: 1px solid lightgreen;
-border-radius: 5px;
+background-color: #A78295;
+border: 1px solid #A78295;
+border-radius: 40px;
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
     outline: none;
 `

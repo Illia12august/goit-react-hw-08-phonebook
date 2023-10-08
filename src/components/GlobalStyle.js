@@ -33,6 +33,9 @@ button {
 `;
 
 export const SectionContainer = styled.div`
+background-color: #331D2C;
+padding-bottom: 100px;
+border-radius: 40px; 
 margin-left: 20px;
 margin-right: 20px;
 `

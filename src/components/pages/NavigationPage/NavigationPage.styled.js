@@ -5,7 +5,7 @@ text-align: center;
 margin-right: auto;
 margin-left: auto;
 margin-bottom: 14px;
-color: blue;
+color: grey;
 font-size: 44px;
 `
 
@@ -14,4 +14,5 @@ text-align: center;
 margin-right: auto;
 margin-left: auto;
 width: 300px;
+color: white;
 `

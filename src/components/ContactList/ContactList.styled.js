@@ -18,7 +18,10 @@ export const StyledSearchInput = styled.input`
     }
   }
 `
-
+export const SyledContactList = styled.div`
+width: 500px;
+border-radius: 30px;
+background-color: #EFE1D1`
 export const ListContact = styled.ul`
     display: flex;
     flex-direction: column;
@@ -49,4 +52,7 @@ padding: 7px;
       background-color: lightblue;
     }
   }
+`
+export const Title =  styled.h2`
+color: white;
 `

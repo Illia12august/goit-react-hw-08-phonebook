@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const StyledForm = styled.form`
-margin: 10px 0;
+  background-color: #EFE1D1;
+  border-radius:40px; 
+  margin: 10px 0;
   width: 500px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   padding: 20px;
@@ -31,7 +33,6 @@ export const Container = styled.div`
   gap: 6px;
   width: 200px;
   margin-bottom: 10px;
-  
 `;
 
 export const AddContactBtn = styled.button`
